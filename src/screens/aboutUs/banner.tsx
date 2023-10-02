@@ -1,12 +1,16 @@
 import { useEffect } from 'react'
 import SlidingWords from './slidingWords'
 import ringSvg from '../../assets/aboutus/Ellipse 101.svg'
+import herobg from '../../assets/aboutus/hero_bg.png'
 export default function Banner() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <div className="h-max bg-green">
+    <div
+      className="h-max bg-cover bg-no-repeat "
+      style={{ backgroundImage: `url(${herobg})` }}
+    >
       {/* section title */}
       {/* <h1 className="pt-24">Banner</h1> */}
       <div className="flex text-white  pt-24  mx-auto min-h-screen w-[min(90%,1100px)] max-[940px]:flex-wrap">
