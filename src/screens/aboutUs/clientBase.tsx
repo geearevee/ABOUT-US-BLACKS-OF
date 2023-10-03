@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from 'react'
-import client1 from '../../assets/aboutus/logo-aachi.png'
-import client2 from '../../assets/aboutus/logo_More.png'
-import client3 from '../../assets/aboutus/logo_dabur.png'
-import client4 from '../../assets/aboutus/logo_itc.png'
-import client5 from '../../assets/aboutus/Logo_UPL.png'
-import client6 from '../../assets/aboutus/suhan-logo-new.png'
-import client7 from '../../assets/aboutus/advanta_logo.png'
+import { useEffect, useRef } from 'react'
+import client1 from '../../assets/aboutus/Logo_UPL.png'
+import client4 from '../../assets/aboutus/logo-aachi.png'
+import client3 from '../../assets/aboutus/logo_More.png'
+import client7 from '../../assets/aboutus/logo_dabur.png'
+import client2 from '../../assets/aboutus/logo_itc.png'
+import client5 from '../../assets/aboutus/suhan-logo-new.png'
+import client6 from '../../assets/aboutus/advanta_logo.png'
 import baseMap from '../../assets/aboutus/worldmap.png'
 import overlayMap from '../../assets/aboutus/worldmapdark.png'
 
@@ -70,7 +70,7 @@ export default function ClientBase() {
           ))}
         </div>
       </div>
-      <div className="flex gap-5 justify-between my-10 w-[min(90%,1000px)] mx-auto max-[900px]:hidden overflow-hidden">
+      <div className="flex gap-5 justify-between my-10 w-[min(90%,937px)] mx-auto max-[900px]:hidden overflow-hidden">
         <img
           src={client1}
           alt="client1"
@@ -107,7 +107,7 @@ export default function ClientBase() {
           className="h-14 w-auto grayscale-[1]"
         />
       </div>
-      <div className="w-[min(90%,1100px)] mx-auto">
+      <div className="w-[min(90%,1440px)] mx-auto">
         <div className="mt-28 relative">
           <img
             src={overlayMap}

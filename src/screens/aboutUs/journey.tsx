@@ -2,7 +2,7 @@ import intentImg from '../../assets/aboutus/intent.svg'
 export default function Journey() {
   return (
     <div className="bg-cream2">
-      <div className="w-[min(90%,1100px)] mx-auto py-24">
+      <div className="w-[min(90%,1440px)] mx-auto py-32">
         <div className="flex  gap-4 items-center">
           <img src={intentImg} alt="intent" />
           <p className="text-green font-semibold text-lg">The intent</p>
@@ -10,7 +10,7 @@ export default function Journey() {
         </div>
         <div className="flex m-4 max-[600px]:flex-col max-[600px]:gap-4">
           <h2 className="flex-[1_1_50%]">A journey in the making</h2>
-          <div className="flex-[1_1_50%] flex gap-3 flex-col">
+          <div className="flex-[1_1_50%] text-[20px] pt-4 flex gap-3 flex-col">
             <p>
               Two emerging aerounautical engineers, Amandeep Panwar and Rishabh
               Choudharyk stumbled upon farmers plight while testing drones in

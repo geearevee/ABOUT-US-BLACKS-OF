@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import teamImage from '../../assets/aboutus/ourteam.jpg'
 import whiteLeftArrow from '../../assets/aboutus/silider-left-white.svg'
 import whiteRightArrow from '../../assets/aboutus/silider-right-white.svg'
@@ -14,6 +14,16 @@ export default function ChangeMakers() {
     if (activeSlide === 0) return
     setActiveSlide((prev) => prev - 1)
   }
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (activeSlide === 2) {
+        setActiveSlide(0)
+      } else {
+        setActiveSlide((prev) => prev + 1)
+      }
+    }, 3000)
+    return () => clearInterval(interval)
+  })
   return (
     <div className="bg-white">
       <div className="w-[min(90%,1100px)] mx-auto flow-root pb-20">
@@ -22,9 +32,9 @@ export default function ChangeMakers() {
           <h2 className="text-center">Changemakers in action</h2>
         </div>
         <div className="mt-14 relative h-max w-max mx-auto">
-          <div className="flex w-[900px] w-max-[900px] max-[1000px]:w-[500px] max-[1000px]:w-max-[500px] max-[550px]:w-[400px] max-[550px]:w-max-[400px]  max-[500px]:w-[350px] max-[500px]:w-max-[350px]  overflow-hidden flex-nowrap">
+          <div className="flex rounded-xl w-[900px] w-max-[900px] max-[1000px]:w-[500px] max-[1000px]:w-max-[500px] max-[550px]:w-[400px] max-[550px]:w-max-[400px]  max-[500px]:w-[350px] max-[500px]:w-max-[350px]  overflow-hidden flex-nowrap">
             <div
-              className={`flex-[0_0_100%] h-max  transition-transform duration-300 ease-in-out`}
+              className={`flex-[0_0_100%] h-max  transition-transform duration-300 ease-in-out rounded-xl`}
               style={{ transform: `translateX(-${100 * activeSlide}%)` }}
             >
               <img
@@ -65,7 +75,7 @@ export default function ChangeMakers() {
               </div>
             ) : (
               <div
-                className="h-8 w-8 flex justify-center items-center rounded-full cursor-not-allowed"
+                className="h-8 w-8 flex justify-center items-center opacity-30 rounded-full cursor-not-allowed"
                 onClick={prevSlide}
               >
                 <img src={leftArrow} className="w-4/5 h-auto" alt="" />
@@ -80,7 +90,7 @@ export default function ChangeMakers() {
               </div>
             ) : (
               <div
-                className="h-8 w-8 flex justify-center items-center rounded-full cursor-not-allowed"
+                className="h-8 w-8 flex justify-center items-center opacity-30 rounded-full cursor-not-allowed"
                 onClick={nextSlide}
               >
                 <img src={rightArrow} className="w-4/5 h-auto" alt="" />
