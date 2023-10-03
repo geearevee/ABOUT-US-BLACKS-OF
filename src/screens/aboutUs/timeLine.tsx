@@ -10,12 +10,12 @@ export default function TimeLine() {
       setYear(0)
     }
   }
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     incrementYear()
-  //   }, 2000)
-  //   return () => clearInterval(interval)
-  // }, [year])
+  useEffect(() => {
+    const interval = setInterval(() => {
+      incrementYear()
+    }, 2000)
+    return () => clearInterval(interval)
+  }, [year])
   return (
     <div className="min-h-[100px] bg-green pb-14">
       <div className="mx-auto w-[min(90%,1440px)]">
