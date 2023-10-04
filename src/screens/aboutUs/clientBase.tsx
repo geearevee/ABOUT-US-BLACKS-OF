@@ -41,7 +41,7 @@ export default function ClientBase() {
           }
         })
       },
-      { rootMargin: '0px', threshold: 1.0 },
+      { rootMargin: '0px', threshold: 0.8 },
     )
 
     if (targetRef.current) {
