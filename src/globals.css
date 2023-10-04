@@ -39,3 +39,8 @@
     transform: translateX(0);
   }
 }
+
+/* to check if elements are overflowing */
+/* * {
+  outline: 2px lime solid;
+} */

@@ -11,7 +11,7 @@ import JoinUs from './joinUs'
 export default function PageAboutUs() {
   return (
     <div>
-      <div className="min-h-screen w-full">
+      <div className="min-h-screen w-full overflow-hidden">
         <Banner />
         <Intent />
         <ClientBase />
