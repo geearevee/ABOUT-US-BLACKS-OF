@@ -41,7 +41,7 @@ export default function TimeLineSlides({ year }: TimeLineSlidesProps) {
           className="w-full min-w-full  pt-4 px-4 transition-transform ease-in-out duration-[1s]"
           style={{ transform: `translateX(-${100 * year}%)` }}
         >
-          <h1 className="text-[78px] mb-3 max-[550px]:text-[48px] font-semibold">
+          <h1 className="text-[78px] mb-[52px] max-[550px]:text-[48px] font-semibold">
             2016
           </h1>
           <p className="text-[28px] max-[550px]:text-[20px]">
@@ -52,7 +52,7 @@ export default function TimeLineSlides({ year }: TimeLineSlidesProps) {
           className="w-full min-w-full  pt-4 px-4 transition-transform ease-in-out duration-[1s]"
           style={{ transform: `translateX(-${100 * year}%)` }}
         >
-          <h1 className="text-[78px] mb-3 max-[550px]:text-[48px] font-semibold">
+          <h1 className="text-[78px] mb-[52px] max-[550px]:text-[48px] font-semibold">
             2017
           </h1>
           <p className="text-[28px] max-[550px]:text-[20px]">
@@ -64,16 +64,16 @@ export default function TimeLineSlides({ year }: TimeLineSlidesProps) {
           className="w-full min-w-full  pt-4 px-4 transition-transform ease-in-out duration-[1s]"
           style={{ transform: `translateX(-${100 * year}%)` }}
         >
-          <h1 className="text-[78px] mb-3 max-[550px]:text-[48px] font-semibold">
+          <h1 className="text-[78px] mb-[52px] max-[550px]:text-[48px] font-semibold">
             2018
           </h1>
           <p className="text-[28px] max-[550px]:text-[20px] before:inline-block ">
             Raises Grant from{' '}
           </p>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             a-idea
           </p>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             BIRAC-BIG
           </p>
         </div>
@@ -81,16 +81,16 @@ export default function TimeLineSlides({ year }: TimeLineSlidesProps) {
           className="w-full min-w-full  pt-4 px-4 transition-transform ease-in-out duration-[1s]"
           style={{ transform: `translateX(-${100 * year}%)` }}
         >
-          <h1 className="text-[78px] mb-3 max-[550px]:text-[48px] font-semibold">
+          <h1 className="text-[78px] mb-[52px] max-[550px]:text-[48px] font-semibold">
             2019
           </h1>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             Outreach expands to 1000 farmers
           </p>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             Onboards ITC as client for 2 crop cycle
           </p>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             Raises convertible not from startup Oasis.
           </p>
         </div>
@@ -98,13 +98,13 @@ export default function TimeLineSlides({ year }: TimeLineSlidesProps) {
           className="w-full min-w-full  pt-4 px-4 transition-transform ease-in-out duration-[1s]"
           style={{ transform: `translateX(-${100 * year}%)` }}
         >
-          <h1 className="text-[78px] mb-3 max-[550px]:text-[48px] font-semibold">
+          <h1 className="text-[78px] mb-[52px] max-[550px]:text-[48px] font-semibold">
             2020
           </h1>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             Farmer counts jumps to 2,000 followed by 3,600 within 4 months
           </p>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             Enters Rajasthan with cumin and moong bean crops{' '}
           </p>
         </div>
@@ -112,13 +112,13 @@ export default function TimeLineSlides({ year }: TimeLineSlidesProps) {
           className="w-full min-w-full  pt-4 px-4 transition-transform ease-in-out duration-[1s]"
           style={{ transform: `translateX(-${100 * year}%)` }}
         >
-          <h1 className="text-[78px] mb-3 max-[550px]:text-[48px] font-semibold">
+          <h1 className="text-[78px] mb-[52px] max-[550px]:text-[48px] font-semibold">
             2021
           </h1>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             Raises revolving credit from Samunnati
           </p>
-          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-0 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
+          <p className="text-[28px] max-[550px]:text-[20px] before:inline-block before:content-[''] before:mx-2 before:mb-1 max-[550px]:before:mb-0 before:rounded-full before:bg-yellow before:h-3 before:w-3">
             6,000 head strong farmer network spanning 30,000 acres becomes a
             reality
           </p>

@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 1740px) {
   .mobile-timeline-container {
-    max-width: 23rem !important;
+    max-width: 18rem !important;
     overflow: hidden !important;
   }
   /* .mobile-timeline {
