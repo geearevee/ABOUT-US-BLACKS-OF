@@ -152,7 +152,7 @@ body {
 @media (max-width: 1740px) {
   @layer utilities {
     .mobile-timeline {
-      grid-template-columns: 15.5rem !important; /* overriding inline style */
+      grid-template-columns: 18rem !important; /* overriding inline style */
     }
   }
 }

@@ -20,8 +20,10 @@ export default function Intent() {
             production and management.
           </p>
           <div className="mt-10 pb-4 grid grid-rows-[max-content_max-content] grid-cols-[max-content_max-content] gap-x-16 max-[1070px]:gap-x-2 max-[410px]:gap-x-6 max-[410px]:grid-cols-[min-content_min-content]">
-            <h2 className="font-medium text-[#22574D]">19,000</h2>
-            <h2 className="col-start-2 font-medium text-[#22574D] col-span-1">
+            <h2 className="font-[700] text-[52px] max-[440px]:text-[48px] max-[380px]:text-[38px] leading-[52px] text-[#22574D] ">
+              19,000
+            </h2>
+            <h2 className="col-start-2 font-[700] text-[52px] max-[440px]:text-[48px] max-[380px]:text-[38px] leading-[52px] text-[#22574D] col-span-1">
               50,000
             </h2>
             <p>heads-strong farmer base</p>

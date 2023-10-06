@@ -13,7 +13,7 @@ export default function TimeLine() {
   useEffect(() => {
     const interval = setInterval(() => {
       incrementYear()
-    }, 2000)
+    }, 4000)
     return () => clearInterval(interval)
   }, [year])
   return (

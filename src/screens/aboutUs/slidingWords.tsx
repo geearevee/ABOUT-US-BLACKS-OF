@@ -11,6 +11,9 @@ export default function SlidingWords() {
       <span className="animate-words min-h-full max-h-full h-full">
         Ambition
       </span>
+      <span className="animate-words min-h-full max-h-full h-full">
+        Purpose
+      </span>
     </span>
   )
 }
