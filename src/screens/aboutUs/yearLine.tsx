@@ -22,7 +22,7 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
           </h4>
           <div
             className={` h-full transition-all ease-in-out duration-[1s] ${
-              year >= 1 ? 'w-0' : 'w-6'
+              year >= 1 ? 'w-0' : 'w-10'
             }`}
           ></div>
           <h4
@@ -34,7 +34,7 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
           </h4>
           <div
             className={` h-full transition-all ease-in-out duration-[1s] ${
-              year >= 2 ? 'w-0' : 'w-6'
+              year >= 2 ? 'w-0' : 'w-10'
             }`}
           ></div>
           <h4
@@ -46,7 +46,7 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
           </h4>
           <div
             className={` h-full transition-all ease-in-out duration-[1s] ${
-              year >= 3 ? 'w-0' : 'w-6'
+              year >= 3 ? 'w-0' : 'w-10'
             }`}
           ></div>
           <h4
@@ -58,7 +58,7 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
           </h4>
           <div
             className={` h-full transition-all ease-in-out duration-[1s] ${
-              year >= 4 ? 'w-0' : 'w-6'
+              year >= 4 ? 'w-0' : 'w-10'
             }`}
           ></div>
           <h4
@@ -70,7 +70,7 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
           </h4>
           <div
             className={` h-full transition-all ease-in-out duration-[1s] ${
-              year >= 5 ? 'w-0' : 'w-6'
+              year >= 5 ? 'w-0' : 'w-10'
             }`}
           ></div>
           <h4
@@ -80,19 +80,19 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
           >
             2021
           </h4>
-          <div className="h-full w-6"></div>
+          <div className="h-full w-10"></div>
           <h4
             className={` flex w-[110px] justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-13 select-none col-end-14`}
           >
             2022
           </h4>
-          <div className="h-full w-6"></div>
+          <div className="h-full w-10"></div>
           <h4
             className={` flex w-[110px] justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-[15] select-none col-end-[16]`}
           >
             2023
           </h4>
-          <div className="h-full w-6"></div>
+          <div className="h-full w-10"></div>
           <h4
             className={` flex w-[110px] justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-[17] select-none col-end-[18]`}
           >
@@ -105,7 +105,7 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
             year > 1 && 'max-[1740px]:mobile-timeline'
           }`}
           style={{
-            gridTemplateColumns: `${Number(134 + year * 110) + 'px'}`,
+            gridTemplateColumns: `${Number(160 + year * 110) + 'px'}`,
           }}
         >
           <div className="flex justify-end h-[48px] bg-white  rounded-3xl col-start-1 w-full z-10">
