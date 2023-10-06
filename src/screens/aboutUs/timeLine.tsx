@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import YearLine from './yearLine'
+import YearLine02 from './yearLine02'
 import TimeLineSlides from './TimeLineSlides'
 export default function TimeLine() {
   const [year, setYear] = useState(0) // year 0 is 2016
@@ -13,7 +14,7 @@ export default function TimeLine() {
   useEffect(() => {
     const interval = setInterval(() => {
       incrementYear()
-    }, 2000)
+    }, 4000)
     return () => clearInterval(interval)
   }, [year])
   return (
@@ -21,6 +22,7 @@ export default function TimeLine() {
       <div className="mx-auto w-[min(90%,1440px)]">
         <TimeLineSlides year={year} />
         <YearLine year={year} incrementYear={incrementYear} />
+        {/* <YearLine02 year={year} incrementYear={incrementYear} /> */}
       </div>
     </div>
   )

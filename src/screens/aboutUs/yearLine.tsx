@@ -12,69 +12,69 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
         onClick={incrementYear}
       >
         {/* years */}
-        <div className="grid grid-cols-[repeat(17,max-content)] transition-all ease-in-out duration-300 grid-rows-[max-content] relative text-white items-center cursor-pointer mobile-timeline-container">
+        <div className="grid grid-cols-[repeat(17,max-content)] transition-all ease-in-out duration-[1s] grid-rows-[max-content] relative text-white items-center cursor-pointer mobile-timeline-container">
           <h4
-            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-1 select-none col-end-2 transition-all duration-300 ease-in-out text-green  w-[110px]  ${
+            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-1 select-none col-end-2 transition-all duration-[1s] ease-in-out text-green  w-[110px]  ${
               year > 1 && 'max-[1740px]:w-0 overflow-hidden'
             }`}
           >
             2016
           </h4>
           <div
-            className={` h-full transition-all ease-in-out duration-300 ${
+            className={` h-full transition-all ease-in-out duration-[1s] ${
               year >= 1 ? 'w-0' : 'w-6'
             }`}
           ></div>
           <h4
-            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-3 select-none col-end-4 transition-all duration-300 ease-in-out  w-[110px]  ${
+            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-3 select-none col-end-4 transition-all duration-[1s] ease-in-out  w-[110px]  ${
               year >= 1 ? 'text-green w-[110px]' : 'text-white w-20'
             } ${year > 2 && 'max-[1740px]:w-0 overflow-hidden'}`}
           >
             2017
           </h4>
           <div
-            className={` h-full transition-all ease-in-out duration-300 ${
+            className={` h-full transition-all ease-in-out duration-[1s] ${
               year >= 2 ? 'w-0' : 'w-6'
             }`}
           ></div>
           <h4
-            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-5 select-none col-end-6 transition-all duration-300 ease-in-out  w-[110px]  ${
+            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-5 select-none col-end-6 transition-all duration-[1s] ease-in-out  w-[110px]  ${
               year >= 2 ? 'text-green w-[110px]' : 'text-white w-20'
             } ${year > 3 && 'max-[1740px]:w-0 overflow-hidden'}`}
           >
             2018
           </h4>
           <div
-            className={` h-full transition-all ease-in-out duration-300 ${
+            className={` h-full transition-all ease-in-out duration-[1s] ${
               year >= 3 ? 'w-0' : 'w-6'
             }`}
           ></div>
           <h4
-            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-7 select-none col-end-8 transition-all duration-300 ease-in-out  w-[110px]  ${
+            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-7 select-none col-end-8 transition-all duration-[1s] ease-in-out  w-[110px]  ${
               year >= 3 ? 'text-green w-[110px]' : 'text-white w-20'
             } ${year > 4 && 'max-[1740px]:w-0 overflow-hidden'}`}
           >
             2019
           </h4>
           <div
-            className={` h-full transition-all ease-in-out duration-300 ${
+            className={` h-full transition-all ease-in-out duration-[1s] ${
               year >= 4 ? 'w-0' : 'w-6'
             }`}
           ></div>
           <h4
-            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-9 select-none col-end-10 transition-all duration-300 ease-in-out  w-[110px]  ${
+            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-9 select-none col-end-10 transition-all duration-[1s] ease-in-out  w-[110px]  ${
               year >= 4 ? 'text-green w-[110px]' : 'text-white w-20'
             } ${year > 5 && 'max-[1740px]:w-0 overflow-hidden'}`}
           >
             2020
           </h4>
           <div
-            className={` h-full transition-all ease-in-out duration-300 ${
+            className={` h-full transition-all ease-in-out duration-[1s] ${
               year >= 5 ? 'w-0' : 'w-6'
             }`}
           ></div>
           <h4
-            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-11 select-none col-end-12 transition-all duration-300 ease-in-out   w-[110px]  ${
+            className={` flex justify-center text-[28px] font-[500] relative z-20 col-span-1 col-start-11 select-none col-end-12 transition-all duration-[1s] ease-in-out   w-[110px]  ${
               year >= 5 ? 'text-green w-[110px]' : 'text-white w-20'
             } ${year > 5 && 'max-[1740px]:w-0 overflow-hidden'}`}
           >
@@ -101,7 +101,7 @@ export default function YearLine({ year, incrementYear }: YearLineProps) {
         </div>
         {/* white arrow */}
         <div
-          className={`grid grid-rows-1 absolute top-0 transition-all duration-300 ease-in-out ${
+          className={`grid grid-rows-1 absolute top-0 transition-all duration-[1s] ease-in-out ${
             year > 1 && 'max-[1740px]:mobile-timeline'
           }`}
           style={{
