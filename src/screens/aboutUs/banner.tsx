@@ -11,9 +11,7 @@ export default function Banner() {
       className="h-max min-h-screen bg-cover bg-no-repeat "
       style={{ backgroundImage: `url(${herobg})` }}
     >
-      {/* section title */}
-      {/* <h1 className="pt-24">Banner</h1> */}
-      <div className="w-[min(90%,1440px)] mx-auto text-white">
+      <div className="w-[min(90%,1250px)] mx-auto text-white">
         <div className=" w-[740px] max-[860px]:w-[700px] max-[560px]:w-[100%] pt-[229px] max-[1380px]:pt-[180px]">
           <div className="text-[42px] max-[860px]:text-[34px] max-[860px]:w-[80%] max-[530px]:w-[90%] max-[426px]:w-[100%]  font-[600] relative">
             Between creating and piloting drones and rising upto the challenges

@@ -32,7 +32,7 @@ export default function Vision() {
   return (
     <div
       ref={sectionRef}
-      className="pt-36  relative before:content-[''] bg-cover bg-no-repeat max-[1145px]:bg-[length:100%_2000px] before:w-full before:h-full before:inset-0 before:opacity-50 before:absolute before:bg-black/50"
+      className="pt-72  relative before:content-[''] bg-cover bg-no-repeat max-[1145px]:bg-[length:100%_2000px] before:w-full before:h-full before:inset-0 before:opacity-50 before:absolute custom-vision-gradient"
       style={{
         backgroundImage: `url(${VisionImage})`,
       }}
@@ -67,7 +67,7 @@ export default function Vision() {
             />
           </div>
         </div>
-        <div className={` text-white h-[650px] overflow-hidden `}>
+        <div className={` text-white h-[680px] overflow-hidden `}>
           <p
             className={`text-[28px] h-full flex items-center max-[500px]:text-xl  font-[600] relative z-10 transition-all ease-in-out duration-300 ${
               !visionActive ? 'translate-y-[-100%] opacity-0' : 'translate-y-0 '

@@ -12,7 +12,7 @@ export default function Journey() {
           <h2 className="flex-[1_1_50%] font-[600] text-[52px]">
             A journey in the making
           </h2>
-          <div className="flex-[1_1_50%] text-[20px] pt-4 flex gap-3 flex-col">
+          <div className="flex-[1_1_35%] text-[20px] pt-4 flex gap-8 flex-col">
             <p>
               Two emerging aerounautical engineers, Amandeep Panwar and Rishabh
               Choudharyk stumbled upon farmers plight while testing drones in
